@@ -1,4 +1,5 @@
-var app = require('./server/node_modules/express')();
+var express = require('./server/node_modules/express');
+var app = express();
 var http = require('http').Server(app);
 var io = require('./server/node_modules/socket.io')(http);
 
