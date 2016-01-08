@@ -4,7 +4,7 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('./server/node_modules/socket.io')(http);
 
-app.set("port",4500);
+app.set("port",3000);
 
 /*使用模块*/
 app.use(logger("dev"));
